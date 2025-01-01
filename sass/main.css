@@ -41,8 +41,11 @@ main .plants__carousel {
   text-align: center;
 }
 main .plants__carousel .carousel {
-  width: 45%;
+  width: 70%;
   margin: 0 auto;
+}
+main .plants__carousel .carousel .carousel-indicators {
+  bottom: -15px;
 }
 @media screen and (max-width: 640px) {
   main .plants__carousel .carousel {
@@ -55,8 +58,11 @@ main .zombies__carousel {
   text-align: center;
 }
 main .zombies__carousel .carousel {
-  width: 45%;
+  width: 70%;
   margin: 0 auto;
+}
+main .zombies__carousel .carousel .carousel-indicators {
+  bottom: -15px;
 }
 @media screen and (max-width: 640px) {
   main .zombies__carousel .carousel {
